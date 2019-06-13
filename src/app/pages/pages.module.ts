@@ -38,11 +38,14 @@ import {
   NbTooltipModule,
   NbCalendarKitModule,
 } from '@nebular/theme';
+import { PerfilComponent } from './perfil/perfil.component';
+import { ChangePassComponent } from './change-pass/change-pass.component';
+import { MembersComponent } from './members/members.component';
 
 
 
 const PAGES_COMPONENTS = [
-  PagesComponent,HomepageComponent
+  PagesComponent,HomepageComponent,PerfilComponent
 ];
 
 @NgModule({
@@ -89,6 +92,9 @@ const PAGES_COMPONENTS = [
   bootstrap: [PagesComponent],
   declarations: [
     ...PAGES_COMPONENTS,
+    ChangePassComponent,
+    MembersComponent,
+    
   ],
 })
 export class PagesModule { }

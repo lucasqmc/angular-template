@@ -15,19 +15,19 @@ export class PagesComponent {
   
   items = [
     {
-      title: 'Profile',
+      title: 'Perfil',
       icon: 'person-outline',
-      link: [],
+      link: '/pages/perfil',
     },
     {
-      title: 'Change Password',
+      title: 'Alterar Senha',
       icon: 'lock-outline',
-      link: [],
+      link: '/pages/change-pass',
     },
     {
-      title: 'Privacy Policy',
-      icon: 'checkmark-outline',
-      link: [],
+      title: 'Membros',
+      icon: 'people',
+      link: '/pages/membros',
     },
     {
       title: 'Logout',
