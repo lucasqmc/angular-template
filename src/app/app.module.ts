@@ -7,10 +7,12 @@ import { NbThemeModule, NbLayoutModule, NbSidebarModule, NbMenuModule } from '@n
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { HttpClient} from '@angular/common/http'
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
